@@ -1,332 +1,331 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>nodotalentos - Headhunting y Selección de Talento</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
-    ></script>
-  </head>
-  <body>
-    <!-- Header -->
-    <header class="main-header">
-      <div class="container">
-        <nav class="navbar">
-          <a href="#" class="logo">
-            <!-- <img src="logo.png" alt="Nodo Talentos" class="logo-img" /> -->
-            <span>Nodo Talentos</span>
-          </a>
-          <div class="menu-toggle">
-            <span></span>
-            <span></span>
-            <span></span>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>nodotalentos - Headhunting y Selección de Talento</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="main-header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="#" class="logo">
+          <img src="./assets/logopng.png" alt="Nodo Talentos" class="logo-img" />
+          <span>Nodo Talentos</span>
+        </a>
+        <div class="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#conocenos">¿Quiénes somos?</a></li>
+          <li><a href="#comolohacemos">Como lo hacemos</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#contacto" class="btn-contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="inicio" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Encontramos al talento que tu empresa necesita</h1>
+        <p class="hero-subtitle">
+          Hacemos que nuestros clientes puedan dedicarse a su negocio
+          aportando valor a través de talento humano.
+        </p>
+        <div class="hero-buttons">
+          <a href="#contacto" class="btn btn-primary">Contáctanos</a>
+          <a href="#testimonios" class="btn btn-outline">Testimonios</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="conocenos" class="services">
+    <div class="container">
+      <h2>Conócenos</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">1</div>
+          <h3>¿Quienes somos?</h3>
+          <p>
+            Somos una compañía especializada en capital humano que busca
+            solucionar y facilitar la búsqueda, contratación y administración
+            de los recursos humanos a las empresas.
+          </p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">2</div>
+          <h3>Aportando Valor a Nuestros Clientes</h3>
+          <p>
+            Agregamos valor contratando y posicionando talentos en empresas de tal manera que nuestros clientes puedan
+            enfocarse en su core business.
+          </p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">3</div>
+          <h3>Nuestra Motivación</h3>
+          <p>
+            Nos motiva encontrar el espacio de cada talento en el mundo
+            laboral de tal manera que esa satisfacción también se refleje en
+            una satisfacción para las empresas.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cómo Trabajamos -->
+  <section id="comolohacemos" class="how-we-work">
+    <div class="container">
+      <h2>Como lo hacemos</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">1</div>
+          <h3>Servicios Transitorios de Recursos Humanos</h3>
+          <p>Contratación temporal de personal a nombre de Nodo</p>
+        </div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <h3>Servicios de Outsourcing de Recursos Humanos</h3>
+          <p>Contratación de personal recurrente a nombre de Nodo</p>
+        </div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <h3>Servicios de Hunting / Reclutamiento y Selección</h3>
+          <p>Encontrar el talento especifico que buscan las empresas</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="nosotros" class="about-us">
+    <div class="container">
+      <div class="section-header">
+        <h2>Beneficios del Outsourcing en Recursos Humanos</h2>
+      </div>
+      <div class="benefits-grid">
+        <div class="benefit-item">
+          <div class="benefit-icon">💰</div>
+          <h3>Reducción de costos y eficiencia operativa</h3>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-icon">⚡</div>
+          <h3>Flexibilidad y rapidez en la dotación de personal</h3>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-icon">📋</div>
+          <h3>Menor carga legal y administrativa</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section id="testimonios" class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <h2>Lo que dicen nuestros clientes</h2>
+        <p class="section-subtitle">
+          Experiencias de empresas que han confiado en nosotros
+        </p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="quote-icon">"</div>
+          <p class="testimonial-text">
+            Trabajar con NODO en servicios transitorios ha sido una excelente
+            experiencia. Destacamos especialmente la rapidez de respuesta y la
+            flexibilidad para adaptarse a nuestras necesidades operativas,
+            incluso en plazos muy acotados. El equipo siempre estuvo
+            disponible, con una cercanía y comunicación clara que nos dio
+            mucha confianza. Sin duda, un partner confiable cuando se requiere
+            agilidad sin perder calidad.
+          </p>
+          <div class="testimonial-author">
+            <div class="author-info">
+              <h4>Valentina Ossa</h4>
+              <p>Fundadora Manila Cesteria</p>
+            </div>
           </div>
-          <ul class="nav-menu">
+        </div>
+        <div class="testimonial-card">
+          <div class="quote-icon">"</div>
+          <p class="testimonial-text">
+            El servicio de outsourcing de RRHH de NODO superó nuestras
+            expectativas. Lograron identificar y asignar el perfil exacto que
+            necesitábamos, entendiendo muy bien nuestro negocio y cultura.
+            Además, valoramos enormemente la reducción de la carga
+            administrativa y legal, lo que nos permitió enfocarnos en nuestra
+            operación principal. La cercanía con los ejecutivos y su
+            acompañamiento permanente marcaron una gran diferencia.
+          </p>
+          <div class="testimonial-author">
+            <div class="author-info">
+              <h4>Anibal Cobo</h4>
+              <p>Gte. Comercial AXAM</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="quote-icon">"</div>
+          <p class="testimonial-text">
+            Nuestra experiencia trabajando con NODO ha sido altamente
+            satisfactoria. Desde el inicio destacaron por su cercanía,
+            flexibilidad y comprensión de nuestras necesidades operativas.
+            El servicio de outsourcing nos permitió incorporar personal
+            confiable y alineado con nuestra cultura. Hoy consideramos a
+            NODO un verdadero socio estratégico, que nos permite enfocarnos
+            en nuestro negocio con total tranquilidad.
+          </p>
+          <div class="testimonial-author">
+            <div class="author-info">
+              <h4>Felipe Estay Asta-Buruaga</h4>
+              <p>Gerente General Proctec Chile</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="contact">
+    <div class="container">
+      <h2>Contáctanos</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Información de Contacto</h3>
+          <p><strong>Email:</strong> pcruz@nodotalentos.cl</p>
+          <p>
+            <strong>Dirección:</strong> Gertrudiz de Echenique, Las Condes,
+            Santiago
+          </p>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <input type="text" name="name" placeholder="Nombre" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <input type="tel" name="phone" placeholder="Teléfono" />
+          <textarea name="message" placeholder="Mensaje" required></textarea>
+          <button type="submit" class="btn btn-primary">
+            Enviar Mensaje
+          </button>
+          <div id="form-message" class="form-message"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="./assets/logopng.png" alt="Nodo Talentos" class="footer-logo-img" /> 
+          <h3>Nodo Talentos</h3>
+          <p>Tu partner en búsqueda y selección de talento</p>
+        </div>
+        <div class="footer-links">
+          <h4>Enlaces Rápidos</h4>
+          <ul>
             <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#conocenos">¿Quiénes somos?</a></li>
-            <li><a href="#comolohacemos">Como lo hacemos</a></li>
-            <li><a href="#nosotros">Nosotros</a></li>
-            <li><a href="#contacto" class="btn-contacto">Contacto</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#como-trabajamos">Cómo trabajamos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
           </ul>
-        </nav>
-      </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section id="inicio" class="hero">
-      <div class="container">
-        <div class="hero-content">
-          <h1>Encontramos al talento que tu empresa necesita</h1>
-          <p class="hero-subtitle">
-            Hacemos que nuestros clientes puedan dedicarse a su negocio
-            aportando valor a través de talento humano.
-          </p>
-          <div class="hero-buttons">
-            <a href="#contacto" class="btn btn-primary">Contáctanos</a>
-            <a href="#servicios" class="btn btn-outline">Nuestros Servicios</a>
+        </div>
+        <div class="footer-social">
+          <h4>Síguenos</h4>
+          <div class="social-links">
+            <a href="#" class="social-link" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-link" title="Facebook"><i class="fab fa-facebook-f"></i></a>
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- Servicios -->
-    <section id="conocenos" class="services">
-      <div class="container">
-        <h2>Conócenos</h2>
-        <div class="services-grid">
-          <div class="service-card">
-            <div class="service-icon">1</div>
-            <h3>¿Quienes somos?</h3>
-            <p>
-              Somos una compañía especializada en capital humano que busca
-              solucionar y facilitar la búsqueda, contratación y administración
-              de los recursos humanos a las empresas.
-            </p>
-          </div>
-          <div class="service-card">
-            <div class="service-icon">2</div>
-            <h3>Aportando Valor a Nuestros Clientes</h3>
-            <p>
-              Agregamos valor contratando y posicionando talentos en empresas de
-              tal manera que sus clientes puedan enfocarse en su core business.
-            </p>
-          </div>
-          <div class="service-card">
-            <div class="service-icon">3</div>
-            <h3>Nuestra Motivación</h3>
-            <p>
-              Nos motiva encontrar el espacio de cada talento en el mundo
-              laboral de tal manera que esa satisfacción también se refleje en
-              una satisfacción para las empresas.
-            </p>
-          </div>
-        </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 @nodotalentos.cl Todos los derechos reservados.</p>
       </div>
-    </section>
+    </div>
+  </footer>
 
-    <!-- Cómo Trabajamos -->
-    <section id="comolohacemos" class="how-we-work">
-      <div class="container">
-        <h2>Como lo hacemos</h2>
-        <div class="steps">
-          <div class="step">
-            <div class="step-number">1</div>
-            <h3>Servicios Transitorios de Recursos Humanos</h3>
-            <p>Contratación temporal de personal a nombre de Nodo</p>
-          </div>
-          <div class="step">
-            <div class="step-number">2</div>
-            <h3>Servicios de Outsourcing de Recursos Humanos</h3>
-            <p>Contratación de personal recurrente a nombre de Nodo</p>
-          </div>
-          <div class="step">
-            <div class="step-number">3</div>
-            <h3>Servicios de Hunting / Reclutamiento y Selección</h3>
-            <p>Encontrar el talento especifico que buscan las empresas</p>
-          </div>
-        </div>
-      </div>
-    </section>
+  <script src="js/main.js"></script>
+  <script>
+    // EmailJS Configuration
+    emailjs.init("KZvzwh4UDf2CwsaI0");
 
-    <section id="nosotros" class="about-us">
-      <div class="container">
-        <div class="section-header">
-          <h2>Beneficios del Outsourcing en Recursos Humanos</h2>
-        </div>
-        <div class="benefits-grid">
-          <div class="benefit-item">
-            <div class="benefit-icon">💰</div>
-            <h3>Reducción de costos y eficiencia operativa</h3>
-          </div>
-          <div class="benefit-item">
-            <div class="benefit-icon">⚡</div>
-            <h3>Flexibilidad y rapidez en la dotación de personal</h3>
-          </div>
-          <div class="benefit-item">
-            <div class="benefit-icon">📋</div>
-            <h3>Menor carga legal y administrativa</h3>
-          </div>
-        </div>
-      </div>
-    </section>
+    function showFormMessage(type, message) {
+      const msgDiv = document.getElementById("form-message");
+      msgDiv.className = "form-message " + type;
+      msgDiv.innerHTML = (type === "success" ? "✅ " : "❌ ") + message;
+      msgDiv.style.display = "block";
 
-    <!-- Testimonios -->
-    <section id="testimonios" class="testimonials">
-      <div class="container">
-        <div class="section-header">
-          <h2>Lo que dicen nuestros clientes</h2>
-          <p class="section-subtitle">
-            Experiencias de empresas que han confiado en nosotros
-          </p>
-        </div>
-
-        <div class="testimonials-grid">
-          <div class="testimonial-card">
-            <div class="quote-icon">"</div>
-            <p class="testimonial-text">
-              Trabajar con NODO en servicios transitorios ha sido una excelente
-              experiencia. Destacamos especialmente la rapidez de respuesta y la
-              flexibilidad para adaptarse a nuestras necesidades operativas,
-              incluso en plazos muy acotados. El equipo siempre estuvo
-              disponible, con una cercanía y comunicación clara que nos dio
-              mucha confianza. Sin duda, un partner confiable cuando se requiere
-              agilidad sin perder calidad.
-            </p>
-            <div class="testimonial-author">
-              <div class="author-info">
-                <h4>Valentina Ossa</h4>
-                <p>Fundadora Manila Cesteria</p>
-              </div>
-            </div>
-          </div>
-          <div class="testimonial-card">
-            <div class="quote-icon">"</div>
-            <p class="testimonial-text">
-              El servicio de outsourcing de RRHH de NODO superó nuestras
-              expectativas. Lograron identificar y asignar el perfil exacto que
-              necesitábamos, entendiendo muy bien nuestro negocio y cultura.
-              Además, valoramos enormemente la reducción de la carga
-              administrativa y legal, lo que nos permitió enfocarnos en nuestra
-              operación principal. La cercanía con los ejecutivos y su
-              acompañamiento permanente marcaron una gran diferencia.
-            </p>
-            <div class="testimonial-author">
-              <div class="author-info">
-                <h4>Anibal Cobo</h4>
-                <p>Gte. Comercial AXAM</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="testimonial-card">
-            <div class="quote-icon">"</div>
-            <p class="testimonial-text">
-              Nuestra experiencia trabajando con NODO ha sido altamente
-              satisfactoria. Desde el inicio destacaron por su cercanía,
-              flexibilidad y comprensión de nuestras necesidades operativas.
-              El servicio de outsourcing nos permitió incorporar personal
-              confiable y alineado con nuestra cultura. Hoy consideramos a
-              NODO un verdadero socio estratégico, que nos permite enfocarnos
-              en nuestro negocio con total tranquilidad.
-            </p>
-            <div class="testimonial-author">
-              <div class="author-info">
-                <h4>Felipe Estay Asta-Buruaga</h4>
-                <p>Gerente General Proctec Chile</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contacto -->
-    <section id="contacto" class="contact">
-      <div class="container">
-        <h2>Contáctanos</h2>
-        <div class="contact-content">
-          <div class="contact-info">
-            <h3>Información de Contacto</h3>
-            <p><strong>Email:</strong> pcruz@nodotalentos.cl</p>
-            <p>
-              <strong>Dirección:</strong> Gertrudiz de Echenique, Las Condes,
-              Santiago
-            </p>
-          </div>
-          <form class="contact-form" id="contact-form">
-            <input type="text" name="name" placeholder="Nombre" required />
-            <input type="email" name="email" placeholder="Email" required />
-            <input type="tel" name="phone" placeholder="Teléfono" />
-            <textarea name="message" placeholder="Mensaje" required></textarea>
-            <button type="submit" class="btn btn-primary">
-              Enviar Mensaje
-            </button>
-            <div id="form-message" class="form-message"></div>
-          </form>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="main-footer">
-      <div class="container">
-        <div class="footer-content">
-          <div class="footer-logo">
-            <!-- <img src="logo.png" alt="Nodo Talentos" class="footer-logo-img" /> -->
-            <h3>Nodo Talentos</h3>
-            <p>Tu partner en búsqueda y selección de talento</p>
-          </div>
-          <div class="footer-links">
-            <h4>Enlaces Rápidos</h4>
-            <ul>
-              <li><a href="#inicio">Inicio</a></li>
-              <li><a href="#servicios">Servicios</a></li>
-              <li><a href="#como-trabajamos">Cómo trabajamos</a></li>
-              <li><a href="#contacto">Contacto</a></li>
-            </ul>
-          </div>
-          <div class="footer-social">
-            <h4>Síguenos</h4>
-            <div class="social-links">
-              <a href="#" class="social-link" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-              <a href="#" class="social-link" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="footer-bottom">
-          <p>&copy; 2025 @nodotalentos.cl Todos los derechos reservados.</p>
-        </div>
-      </div>
-    </footer>
-
-    <script src="js/main.js"></script>
-    <script>
-      // EmailJS Configuration
-      emailjs.init("KZvzwh4UDf2CwsaI0");
-
-      function showFormMessage(type, message) {
-        const msgDiv = document.getElementById("form-message");
-        msgDiv.className = "form-message " + type;
-        msgDiv.innerHTML = (type === "success" ? "✅ " : "❌ ") + message;
-        msgDiv.style.display = "block";
-
-        if (type === "success") {
-          setTimeout(() => {
-            msgDiv.style.display = "none";
-          }, 5000);
-        }
+      if (type === "success") {
+        setTimeout(() => {
+          msgDiv.style.display = "none";
+        }, 5000);
       }
+    }
 
-      document
-        .getElementById("contact-form")
-        .addEventListener("submit", function (e) {
-          e.preventDefault();
+    document
+      .getElementById("contact-form")
+      .addEventListener("submit", function (e) {
+        e.preventDefault();
 
-          const btn = this.querySelector('button[type="submit"]');
-          const originalText = btn.textContent;
-          btn.textContent = "Enviando...";
-          btn.disabled = true;
+        const btn = this.querySelector('button[type="submit"]');
+        const originalText = btn.textContent;
+        btn.textContent = "Enviando...";
+        btn.disabled = true;
 
-          const templateParams = {
-            name: this.querySelector('[name="name"]').value,
-            email: this.querySelector('[name="email"]').value,
-            phone:
-              this.querySelector('[name="phone"]').value || "No proporcionado",
-            message: this.querySelector('[name="message"]').value,
-            time: new Date().toLocaleString("es-CL"),
-          };
+        const templateParams = {
+          name: this.querySelector('[name="name"]').value,
+          email: this.querySelector('[name="email"]').value,
+          phone:
+            this.querySelector('[name="phone"]').value || "No proporcionado",
+          message: this.querySelector('[name="message"]').value,
+          time: new Date().toLocaleString("es-CL"),
+        };
 
-          emailjs
-            .send("service_qtty2wj", "template_durv7i7", templateParams)
-            .then(function () {
-              showFormMessage(
-                "success",
-                "¡Mensaje enviado! Nos pondremos en contacto pronto."
-              );
-              document.getElementById("contact-form").reset();
-            })
-            .catch(function (error) {
-              showFormMessage(
-                "error",
-                "Error al enviar. Por favor intenta nuevamente."
-              );
-              console.error("EmailJS Error:", error);
-            })
-            .finally(function () {
-              btn.textContent = originalText;
-              btn.disabled = false;
-            });
-        });
-    </script>
-  </body>
+        emailjs
+          .send("service_qtty2wj", "template_durv7i7", templateParams)
+          .then(function () {
+            showFormMessage(
+              "success",
+              "¡Mensaje enviado! Nos pondremos en contacto pronto."
+            );
+            document.getElementById("contact-form").reset();
+          })
+          .catch(function (error) {
+            showFormMessage(
+              "error",
+              "Error al enviar. Por favor intenta nuevamente."
+            );
+            console.error("EmailJS Error:", error);
+          })
+          .finally(function () {
+            btn.textContent = originalText;
+            btn.disabled = false;
+          });
+      });
+  </script>
+</body>
+
 </html>

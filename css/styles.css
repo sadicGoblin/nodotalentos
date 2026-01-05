@@ -1,6 +1,6 @@
 /* Variables */
 :root {
-    --primary-color: #1a56db;
+    --primary-color: #194dbd;
     --secondary-color: #1e429f;
     --accent-color: #3f83f8;
     --text-color: #1f2937;
@@ -455,7 +455,7 @@ section h2::after {
 }
 
 .footer-logo-img {
-    height: 60px;
+    height: 90px;
     width: auto;
     margin-bottom: 1rem;
 }
