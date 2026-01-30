@@ -59,8 +59,16 @@
             <a href="#servicios" class="btn btn-outline">Nuestros Servicios</a>
           </div>
         </div>
-      </div>
-    </section>
+        <ul class="nav-menu">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#conocenos">¿Quiénes somos?</a></li>
+          <li><a href="#comolohacemos">Como lo hacemos</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#contacto" class="btn-contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
     <!-- Servicios -->
     <section id="conocenos" class="services">
@@ -96,7 +104,8 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
     <!-- Cómo Trabajamos -->
     <section id="comolohacemos" class="how-we-work">
@@ -120,39 +129,59 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
     <section id="nosotros" class="about-us">
       <div class="container">
         <div class="section-header">
           <h2>Beneficios del outsourcing en recursos humanos</h2>
         </div>
-        <div class="benefits-grid">
-          <div class="benefit-item">
-            <div class="benefit-icon">💰</div>
-            <h3>Reducción de costos y eficiencia operativa</h3>
-          </div>
-          <div class="benefit-item">
-            <div class="benefit-icon">⚡</div>
-            <h3>Flexibilidad y rapidez en la dotación de personal</h3>
-          </div>
-          <div class="benefit-item">
-            <div class="benefit-icon">📋</div>
-            <h3>Menor carga legal y administrativa</h3>
-          </div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <h3>Servicios de Outsourcing de Recursos Humanos</h3>
+          <p>Contratación de personal recurrente a nombre de Nodo</p>
+        </div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <h3>Servicios de Hunting / Reclutamiento y Selección</h3>
+          <p>Encontrar el talento especifico que buscan las empresas</p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Testimonios -->
-    <section id="testimonios" class="testimonials">
-      <div class="container">
-        <div class="section-header">
-          <h2>Lo que dicen nuestros clientes</h2>
-          <p class="section-subtitle">
-            Experiencias de empresas que han confiado en nosotros
-          </p>
+  <section id="nosotros" class="about-us">
+    <div class="container">
+      <div class="section-header">
+        <h2>Beneficios del Outsourcing en Recursos Humanos</h2>
+      </div>
+      <div class="benefits-grid">
+        <div class="benefit-item">
+          <div class="benefit-icon">💰</div>
+          <h3>Reducción de costos y eficiencia operativa</h3>
         </div>
+        <div class="benefit-item">
+          <div class="benefit-icon">⚡</div>
+          <h3>Flexibilidad y rapidez en la dotación de personal</h3>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-icon">📋</div>
+          <h3>Menor carga legal y administrativa</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section id="testimonios" class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <h2>Lo que dicen nuestros clientes</h2>
+        <p class="section-subtitle">
+          Experiencias de empresas que han confiado en nosotros
+        </p>
+      </div>
 
         <div class="testimonials-grid">
           <div class="testimonial-card">
@@ -191,6 +220,7 @@
               </div>
             </div>
           </div>
+        </div>
 
           <div class="testimonial-card">
             <div class="quote-icon">"</div>
@@ -212,7 +242,8 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
     <!-- Contacto -->
     <section id="contacto" class="contact">
@@ -237,8 +268,19 @@
             <div id="form-message" class="form-message"></div>
           </form>
         </div>
+        <form class="contact-form" id="contact-form">
+          <input type="text" name="name" placeholder="Nombre" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <input type="tel" name="phone" placeholder="Teléfono" />
+          <textarea name="message" placeholder="Mensaje" required></textarea>
+          <button type="submit" class="btn btn-primary">
+            Enviar Mensaje
+          </button>
+          <div id="form-message" class="form-message"></div>
+        </form>
       </div>
-    </section>
+    </div>
+  </section>
 
     <!-- Footer -->
     <footer class="main-footer">
@@ -274,44 +316,72 @@
           <p>&copy; 2025 nodotalentos.cl — Todos los derechos reservados.</p>
         </div>
       </div>
-    </footer>
+      <div class="footer-bottom">
+        <p>&copy; 2025 @nodotalentos.cl Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
 
-    <script src="js/main.js"></script>
-    <script>
-      // EmailJS Configuration
-      emailjs.init("KZvzwh4UDf2CwsaI0");
+  <script src="js/main.js"></script>
+  <script>
+    // EmailJS Configuration
+    emailjs.init("KZvzwh4UDf2CwsaI0");
 
-      function showFormMessage(type, message) {
-        const msgDiv = document.getElementById("form-message");
-        msgDiv.className = "form-message " + type;
-        msgDiv.innerHTML = (type === "success" ? "✅ " : "❌ ") + message;
-        msgDiv.style.display = "block";
+    function showFormMessage(type, message) {
+      const msgDiv = document.getElementById("form-message");
+      msgDiv.className = "form-message " + type;
+      msgDiv.innerHTML = (type === "success" ? "✅ " : "❌ ") + message;
+      msgDiv.style.display = "block";
 
-        if (type === "success") {
-          setTimeout(() => {
-            msgDiv.style.display = "none";
-          }, 5000);
-        }
+      if (type === "success") {
+        setTimeout(() => {
+          msgDiv.style.display = "none";
+        }, 5000);
       }
+    }
 
-      document
-        .getElementById("contact-form")
-        .addEventListener("submit", function (e) {
-          e.preventDefault();
+    document
+      .getElementById("contact-form")
+      .addEventListener("submit", function (e) {
+        e.preventDefault();
 
-          const btn = this.querySelector('button[type="submit"]');
-          const originalText = btn.textContent;
-          btn.textContent = "Enviando...";
-          btn.disabled = true;
+        const btn = this.querySelector('button[type="submit"]');
+        const originalText = btn.textContent;
+        btn.textContent = "Enviando...";
+        btn.disabled = true;
 
-          const templateParams = {
-            name: this.querySelector('[name="name"]').value,
-            email: this.querySelector('[name="email"]').value,
-            phone:
-              this.querySelector('[name="phone"]').value || "No proporcionado",
-            message: this.querySelector('[name="message"]').value,
-            time: new Date().toLocaleString("es-CL"),
-          };
+        const templateParams = {
+          name: this.querySelector('[name="name"]').value,
+          email: this.querySelector('[name="email"]').value,
+          phone:
+            this.querySelector('[name="phone"]').value || "No proporcionado",
+          message: this.querySelector('[name="message"]').value,
+          time: new Date().toLocaleString("es-CL"),
+        };
+
+        emailjs
+          .send("service_qtty2wj", "template_durv7i7", templateParams)
+          .then(function () {
+            showFormMessage(
+              "success",
+              "¡Mensaje enviado! Nos pondremos en contacto pronto."
+            );
+            document.getElementById("contact-form").reset();
+          })
+          .catch(function (error) {
+            showFormMessage(
+              "error",
+              "Error al enviar. Por favor intenta nuevamente."
+            );
+            console.error("EmailJS Error:", error);
+          })
+          .finally(function () {
+            btn.textContent = originalText;
+            btn.disabled = false;
+          });
+      });
+  </script>
+</body>
 
           emailjs
             .send("service_qtty2wj", "template_durv7i7", templateParams)
