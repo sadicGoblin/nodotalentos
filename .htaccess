@@ -1,0 +1,8 @@
+# Apache: rutas limpias para carpetas con index.html (/privacidad, /terminos)
+DirectoryIndex index.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^privacidad$ /privacidad/ [R=301,L]
+  RewriteRule ^terminos$ /terminos/ [R=301,L]
+</IfModule>

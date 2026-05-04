@@ -1,0 +1,6 @@
+# Sitio estático: publicar desde la raíz. En el panel de Netlify activar HTTPS para el dominio.
+# Las URLs /privacidad/ y /terminos/ se resuelven con privacidad/index.html y terminos/index.html
+
+[build]
+  publish = "."
+  command = "true"

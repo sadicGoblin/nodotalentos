@@ -376,6 +376,16 @@ section h2::after {
     color: white;
 }
 
+.contact-info a {
+    color: rgba(255, 255, 255, 0.95);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.contact-info a:hover {
+    color: white;
+}
+
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -438,6 +448,74 @@ section h2::after {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+/* Política de privacidad */
+.privacy-policy {
+    background-color: var(--light-bg);
+    scroll-margin-top: 5.5rem;
+}
+
+body.privacy-page .privacy-policy {
+    scroll-margin-top: 0;
+    padding-top: 7rem;
+}
+
+.privacy-policy__inner {
+    max-width: 52rem;
+}
+
+.privacy-policy__header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.privacy-policy__updated {
+    color: var(--light-text);
+    font-size: 0.95rem;
+    margin-top: 0.75rem;
+}
+
+.privacy-policy__body {
+    background: white;
+    padding: 2.5rem 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.privacy-policy__body h3 {
+    font-size: 1.125rem;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    color: var(--primary-color);
+    text-align: left;
+}
+
+.privacy-policy__body h3:first-child {
+    margin-top: 0;
+}
+
+.privacy-policy__body p {
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.privacy-policy__body p:last-child {
+    margin-bottom: 0;
+}
+
+.privacy-policy__list {
+    margin: 0.75rem 0 1rem 0;
+    padding-left: 1.25rem;
+}
+
+.privacy-policy__list li {
+    margin-bottom: 0.5rem;
+}
+
+.privacy-policy__body a {
+    color: var(--primary-color);
+    word-break: break-word;
 }
 
 /* Footer */
@@ -516,6 +594,20 @@ section h2::after {
 .social-link:hover {
     background-color: var(--primary-color);
     transform: translateY(-3px);
+}
+
+.footer-legal-entity {
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin-bottom: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    font-size: 0.875rem;
+    line-height: 1.6;
+    color: #d1d5db;
+}
+
+.footer-legal-entity p {
+    margin: 0.2rem 0;
 }
 
 .footer-bottom {
@@ -628,6 +720,69 @@ section h2::after {
     color: #7f8c8d;
     font-size: 1.2rem;
     margin-bottom: 0;
+}
+
+.section-header--about-benefits {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.about-us__benefits-title {
+    font-size: 1.65rem;
+    color: #2c3e50;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: normal;
+    margin-bottom: 0;
+}
+
+.business-identity {
+    max-width: 640px;
+    margin: 0 auto 2rem;
+    padding: 2rem 2rem 1.75rem;
+    background: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+}
+
+.business-identity__name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.business-identity__activity {
+    color: #7f8c8d;
+    font-size: 1.05rem;
+    margin-bottom: 1.25rem;
+}
+
+.business-identity__contact {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.business-identity__contact li {
+    margin-bottom: 0.65rem;
+    color: #2c3e50;
+    font-size: 1rem;
+}
+
+.business-identity__contact a {
+    color: var(--primary-color);
+}
+
+.business-identity__wa-note {
+    display: inline-block;
+    margin-left: 0.25rem;
+    color: #7f8c8d;
+    font-size: 0.9rem;
 }
 
 .team-grid {

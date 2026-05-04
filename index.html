@@ -4,13 +4,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>nodotalentos - Headhunting y Selección de Talento</title>
+  <link rel="canonical" href="https://nodotalentos.cl/" />
+  <title>Nodo Talentos — Headhunting y Selección de Talento</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@400;500;600;700&display=swap"
     rel="stylesheet" />
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="/css/styles.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 </head>
@@ -20,8 +21,8 @@
   <header class="main-header">
     <div class="container">
       <nav class="navbar">
-        <a href="#" class="logo">
-          <img src="./assets/logopng.png" alt="Nodo Talentos" class="logo-img" />
+        <a href="index.html" class="logo">
+          <img src="/assets/logopng.png" alt="Nodo Talentos" class="logo-img" />
           <span>Nodo Talentos</span>
         </a>
         <div class="menu-toggle">
@@ -119,7 +120,32 @@
   <section id="nosotros" class="about-us">
     <div class="container">
       <div class="section-header">
-        <h2>Beneficios del Outsourcing en Recursos Humanos</h2>
+        <h2>Nosotros</h2>
+        <p class="section-subtitle">
+          <strong>Nodo Talentos</strong> es una empresa de reclutamiento y selección de personal.
+        </p>
+      </div>
+
+      <div class="business-identity">
+        <p class="business-identity__name">Nodo Talentos</p>
+        <p class="business-identity__activity">
+          Empresa de reclutamiento y selección de personal.
+        </p>
+        <ul class="business-identity__contact">
+          <li>
+            <strong>Email:</strong>
+            <a href="mailto:awillson@nodotalentos.cl">awillson@nodotalentos.cl</a>
+          </li>
+          <li>
+            <strong>Teléfono / WhatsApp:</strong>
+            <a href="https://wa.me/56982760657" target="_blank" rel="noopener noreferrer">+56 9 8276 0657</a>
+            <span class="business-identity__wa-note">(WhatsApp Business oficial)</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="section-header section-header--about-benefits">
+        <h3 class="about-us__benefits-title">Beneficios del Outsourcing en Recursos Humanos</h3>
       </div>
       <div class="benefits-grid">
         <div class="benefit-item">
@@ -215,10 +241,15 @@
       <div class="contact-content">
         <div class="contact-info">
           <h3>Información de Contacto</h3>
-          <p><strong>Email:</strong> pcruz@nodotalentos.cl</p>
+          <p><strong>Nodo Talentos</strong> — reclutamiento y selección de personal.</p>
+          <p><strong>Email:</strong> <a href="mailto:awillson@nodotalentos.cl">awillson@nodotalentos.cl</a></p>
           <p>
-            <strong>Dirección:</strong> Gertrudiz de Echenique, Las Condes,
-            Santiago
+            <strong>Teléfono / WhatsApp:</strong>
+            <a href="https://wa.me/56982760657" target="_blank" rel="noopener noreferrer">+56 9 8276 0657</a>
+            (WhatsApp Business oficial)
+          </p>
+          <p>
+            <strong>Dirección:</strong> Gertrudis Echeñique 280, Las Condes, Región Metropolitana.
           </p>
         </div>
         <form class="contact-form" id="contact-form">
@@ -240,7 +271,7 @@
     <div class="container">
       <div class="footer-content">
         <div class="footer-logo">
-          <img src="./assets/logopng.png" alt="Nodo Talentos" class="footer-logo-img" /> 
+          <img src="/assets/logopng.png" alt="Nodo Talentos" class="footer-logo-img" /> 
           <h3>Nodo Talentos</h3>
           <p>Tu partner en búsqueda y selección de talento</p>
         </div>
@@ -248,9 +279,16 @@
           <h4>Enlaces Rápidos</h4>
           <ul>
             <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#servicios">Servicios</a></li>
-            <li><a href="#como-trabajamos">Cómo trabajamos</a></li>
+            <li><a href="#conocenos">Conócenos</a></li>
+            <li><a href="#comolohacemos">Como lo hacemos</a></li>
             <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="/privacidad/">Política de Privacidad</a></li>
+            <li><a href="/terminos/">Términos del Servicio</a></li>
           </ul>
         </div>
         <div class="footer-social">
@@ -261,13 +299,18 @@
           </div>
         </div>
       </div>
+      <div class="footer-legal-entity">
+        <p><strong>NODO OUTSOURCING SpA</strong></p>
+        <p>RUT 78.337.989-9</p>
+        <p>Gertrudis Echeñique 280, Las Condes, Región Metropolitana.</p>
+      </div>
       <div class="footer-bottom">
-        <p>&copy; 2025 @nodotalentos.cl Todos los derechos reservados.</p>
+        <p>&copy; 2026 nodotalentos.cl · Todos los derechos reservados.</p>
       </div>
     </div>
   </footer>
 
-  <script src="js/main.js"></script>
+  <script src="/js/main.js"></script>
   <script>
     // EmailJS Configuration
     emailjs.init("KZvzwh4UDf2CwsaI0");

@@ -298,6 +298,34 @@
             bottom: -100px;
             left: -50px;
         }
+
+        .coming-soon-footer {
+            margin-top: 2.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.15);
+            animation: fadeInUp 1s ease-out 1s both;
+        }
+
+        .coming-soon-footer__legal {
+            margin-bottom: 0.75rem;
+        }
+
+        .coming-soon-footer__legal a {
+            color: #a2d2ff;
+            text-decoration: none;
+        }
+
+        .coming-soon-footer__legal a:hover {
+            text-decoration: underline;
+        }
+
+        .coming-soon-footer__company,
+        .coming-soon-footer__address {
+            color: rgba(255, 255, 255, 0.55);
+            font-size: 0.8rem;
+            line-height: 1.5;
+            margin: 0.2rem 0;
+        }
     </style>
 </head>
 <body>
@@ -365,6 +393,16 @@
             <a href="#" class="social-link" title="Instagram">📸</a>
             <a href="#" class="social-link" title="LinkedIn">💼</a>
         </div>
+
+        <footer class="coming-soon-footer">
+            <p class="coming-soon-footer__legal">
+                <a href="/privacidad/">Política de Privacidad</a>
+                <span aria-hidden="true"> · </span>
+                <a href="/terminos/">Términos del Servicio</a>
+            </p>
+            <p class="coming-soon-footer__company">NODO OUTSOURCING SpA · RUT 78.337.989-9</p>
+            <p class="coming-soon-footer__address">Gertrudis Echeñique 280, Las Condes, Región Metropolitana.</p>
+        </footer>
     </div>
 </body>
 </html>
